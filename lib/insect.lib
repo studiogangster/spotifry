@@ -49920,7 +49920,7 @@
             ramStats = {
               frida_heap_size: parseInt(Frida.heapSize * 0.001 * 0.001),
               memory_private_dirty: parseInt(memInfo * 0.001) + ' MB',
-              memory_private_dirty: parseInt(memInfoClean * 0.001) + ' MB',
+              memory_private_clean: parseInt(memInfoClean * 0.001) + ' MB',
               memory_total: parseInt((memInfo + memInfoClean) * 0.001) + ' MB',
 
 
