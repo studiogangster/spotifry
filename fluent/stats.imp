@@ -1,0 +1,17 @@
+https://developer.android.com/reference/kotlin/android/support/v4/media/session/PlaybackStateCompat#STATE_BUFFERING:kotlin.Int
+
+STATE_PLAYING 3
+PlaybackState {state=3
+
+STATE_PAUSED 2
+
+
+STATE_STOPPED 1
+
+STATE_BUFFERING 6
+
+STATE_CONNECTING 8
+
+ed | Playback
+:: hit
+ouched View
