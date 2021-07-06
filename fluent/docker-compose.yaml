@@ -1,8 +1,8 @@
 version: '3'
 services: 
     fluent:
-        image: fluent/fluentd:v1.3-debian-1
-        command: -c /fluentd/etc/fluent.conf 
+        image: fluent/fluentd:stable
+        # command: -c /fluentd/etc/fluent.conf 
         ports: 
             -   24224:24224
             -   24224:24224/udp
@@ -11,4 +11,4 @@ services:
         volumes: 
             # -   ./data:/fluentd/log
             -   ./conf:/fluentd/etc
-            -   ./data/log:/var/log/test
+            -   ./data/log:/logs:Z

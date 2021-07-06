@@ -1,0 +1,7 @@
+{"message":" | {\"event\":\"internal_change\",\"ui_play_state\":{\"player_state\":{\"paused\":true,\"playing\":true}},\"timestamp\":\"884055493218939\",\"internal_play_state\":{\"play_state\":1}}","event_time":1625589759.0}
+{"event"=>"ui_change", "ui_play_state"=>{"player_state"=>{"paused"=>false, "playing"=>true}}, "timestamp"=>"885104280792227"}
+{"event"=>"internal_change", "ui_play_state"=>{"player_state"=>{"paused"=>false, "playing"=>true}}, "timestamp"=>"885106570244071", "internal_play_state"=>{"play_state"=>3}}
+{"event"=>"ui_change", "ui_play_state"=>{"player_state"=>{"paused"=>true, "playing"=>true}}, "timestamp"=>"885108061823916", "internal_play_state"=>{"play_state"=>3}}
+{"event"=>"ui_change", "ui_play_state"=>{"player_state"=>{"paused"=>false, "playing"=>true}}, "timestamp"=>"885108062594032", "internal_play_state"=>{"play_state"=>3}}
+{"event"=>"ui_change", "ui_play_state"=>{"player_state"=>{"paused"=>true, "playing"=>true}}, "timestamp"=>"885108063300839", "internal_play_state"=>{"play_state"=>3}}
+{"event"=>"internal_change", "ui_play_state"=>{"player_state"=>{"paused"=>true, "playing"=>true}}, "timestamp"=>"885108330182532", "internal_play_state"=>{"play_state"=>2}}
