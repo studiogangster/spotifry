@@ -49877,7 +49877,7 @@
           // console_log('hello_world', d)
         })
 
-        logger.emit(tag, {'message': message})
+        logger.emit(tag, {'message': data ,  'raw': JSON.parse(data) })
 
 
       } catch (err) {
